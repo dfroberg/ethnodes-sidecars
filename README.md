@@ -1,2 +1,3 @@
 # ethnodes-sidecars
-Deployment Sidecars
+
+Deployment Sidecars for ETH1/ETH2 nodes
