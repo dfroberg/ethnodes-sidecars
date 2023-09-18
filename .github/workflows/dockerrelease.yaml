@@ -34,7 +34,6 @@ jobs:
       - name: Build and push ethnodes-sidecars
         uses: docker/build-push-action@v4
         with:
-          context: src
           push: true
           tags: dfroberg/ethnodes-sidecars:${{ env.RELEASE_VERSION }} , dfroberg/ethnodes-sidecars:latest
           labels: ${{ steps.meta.outputs.labels }}
